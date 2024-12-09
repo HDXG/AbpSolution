@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35514.174
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "frameWork", "frameWork", "{532F5451-9A6B-4614-B1A8-7C11B69CDAFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RYDesign.Domain", "frameWork\RYDesign.Domain\RYDesign.Domain.csproj", "{61C8E328-F74C-4CA5-A005-49441FF842D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RYDesign.Application.Contracts", "frameWork\RYDesign.Application.Contracts\RYDesign.Application.Contracts.csproj", "{9F223386-893D-487D-BC51-A2A4334B667C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RYDesign.Application", "frameWork\RYDesign.Application\RYDesign.Application.csproj", "{5077BA9E-FA8A-4EBC-9020-09BFA8322FB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RYDesign.EntityFrameWorkCore", "frameWork\RYDesign.EntityFrameWorkCore\RYDesign.EntityFrameWorkCore.csproj", "{562BC30C-865F-4AD5-A5C7-E74B09EBFD4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RYDesign.AspNetCore", "frameWork\RYDesign.AspNetCore\RYDesign.AspNetCore.csproj", "{06AE8362-0AA4-40D8-A50A-80D2DF6C7B2F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61C8E328-F74C-4CA5-A005-49441FF842D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61C8E328-F74C-4CA5-A005-49441FF842D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61C8E328-F74C-4CA5-A005-49441FF842D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61C8E328-F74C-4CA5-A005-49441FF842D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F223386-893D-487D-BC51-A2A4334B667C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F223386-893D-487D-BC51-A2A4334B667C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F223386-893D-487D-BC51-A2A4334B667C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F223386-893D-487D-BC51-A2A4334B667C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5077BA9E-FA8A-4EBC-9020-09BFA8322FB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5077BA9E-FA8A-4EBC-9020-09BFA8322FB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5077BA9E-FA8A-4EBC-9020-09BFA8322FB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5077BA9E-FA8A-4EBC-9020-09BFA8322FB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{562BC30C-865F-4AD5-A5C7-E74B09EBFD4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{562BC30C-865F-4AD5-A5C7-E74B09EBFD4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{562BC30C-865F-4AD5-A5C7-E74B09EBFD4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{562BC30C-865F-4AD5-A5C7-E74B09EBFD4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06AE8362-0AA4-40D8-A50A-80D2DF6C7B2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06AE8362-0AA4-40D8-A50A-80D2DF6C7B2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06AE8362-0AA4-40D8-A50A-80D2DF6C7B2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06AE8362-0AA4-40D8-A50A-80D2DF6C7B2F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{61C8E328-F74C-4CA5-A005-49441FF842D5} = {532F5451-9A6B-4614-B1A8-7C11B69CDAFC}
+		{9F223386-893D-487D-BC51-A2A4334B667C} = {532F5451-9A6B-4614-B1A8-7C11B69CDAFC}
+		{5077BA9E-FA8A-4EBC-9020-09BFA8322FB8} = {532F5451-9A6B-4614-B1A8-7C11B69CDAFC}
+		{562BC30C-865F-4AD5-A5C7-E74B09EBFD4B} = {532F5451-9A6B-4614-B1A8-7C11B69CDAFC}
+		{06AE8362-0AA4-40D8-A50A-80D2DF6C7B2F} = {532F5451-9A6B-4614-B1A8-7C11B69CDAFC}
+	EndGlobalSection
+EndGlobal
